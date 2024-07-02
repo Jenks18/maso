@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Accounting Associate focused on building products with attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As an Accounting Associate with an interest in tinkering, I am interested in developing solutions across various industries  Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/48165559?s=400&u=64eab127867a18ac16b9d8fd9df1e8caf4de1266&v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -91,6 +91,17 @@ export const RESUME_DATA = {
     "Tkinter",
   ],
   projects: [
+    {
+      title: "Xanes",
+      techStack: ["Electronic Music"],
+      description:
+        "Electronic Music label with a focus on showcasing different electronic sounds from Kenyan artists",
+      logo: JarockiMeLogo,
+      link: {
+        label: "",
+        href: "",
+      },
+    },
     {
       title: "Pesalite",
       techStack: ["Side Project", "Python"],
