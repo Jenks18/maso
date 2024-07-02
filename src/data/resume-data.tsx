@@ -63,7 +63,7 @@ export const RESUME_DATA = {
     {
       company: "Brady Organization",
       link: "https://www.bradyunited.org/",
-      badges: ["Hybrid"],
+      badges: ["Hybrid, Washington DC"],
       title: "Accounting Associate",
       logo: ParabolLogo,
       start: "06/2023",
