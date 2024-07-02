@@ -98,8 +98,8 @@ export const RESUME_DATA = {
         "Electronic Music label with a focus on showcasing different electronic sounds from Kenyan artists",
       logo: JarockiMeLogo,
       link: {
-        label: "",
-        href: "",
+        label: "Framer.com",
+        href: "https://xanes.framer.website/",
       },
     },
     {
