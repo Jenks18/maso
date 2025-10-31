@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "./ui/card";
 import { Badge } from "./ui/badge";
+import { ExternalLink } from "lucide-react";
 
 interface Props {
   title: string;
@@ -16,7 +17,7 @@ interface Props {
 
 export function ProjectCard({ title, description, tags, link }: Props) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className="flex flex-col overflow-hidden border border-muted p-3 transition-all duration-300 hover:shadow-xl hover:shadow-primary/5 dark:hover:shadow-primary/20 hover:-translate-y-1 hover:border-primary/50 dark:hover:border-primary/70">
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-base">
@@ -24,13 +25,19 @@ export function ProjectCard({ title, description, tags, link }: Props) {
               <a
                 href={link}
                 target="_blank"
-                className="inline-flex items-center gap-1 hover:underline"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 hover:underline group"
               >
                 {title}{" "}
-                <span className="size-1 rounded-full bg-green-500"></span>
+                <ExternalLink className="size-3 opacity-50 group-hover:opacity-100 transition-opacity" />
               </a>
             ) : (
-              title
+              <span className="inline-flex items-center gap-2">
+                {title}
+                <span className="text-[10px] rounded-md bg-muted px-2 py-1 font-mono text-muted-foreground whitespace-nowrap">
+                  Coming soon
+                </span>
+              </span>
             )}
           </CardTitle>
           <div className="hidden font-mono text-xs underline print:visible">
