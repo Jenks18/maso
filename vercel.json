@@ -1,0 +1,9 @@
+{
+  "projectSettings": {
+    "framework": "nextjs"
+  },
+  "domains": [
+    "njengaventures.dev",
+    "www.njengaventures.dev"
+  ]
+}
