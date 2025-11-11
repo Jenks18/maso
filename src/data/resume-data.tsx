@@ -53,6 +53,13 @@ export const RESUME_DATA = {
   // Focused projects resume — work, education and skill lists removed
   projects: [
     {
+      title: "ToxWiki GPT",
+      techStack: ["AI", "Healthcare", "GPT"],
+      description:
+        "AI-powered toxicology reference chatbot providing information from patient, doctor, and researcher perspectives. Built with GPT technology for medical toxicology queries.",
+      link: { label: "ToxWiki GPT", href: "https://chatbot-y1ar.vercel.app" },
+    },
+    {
       title: "Wakenya Who Code",
       techStack: ["Community", "Web"],
       description:
