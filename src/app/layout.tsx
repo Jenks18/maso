@@ -7,7 +7,7 @@ import React from "react";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://iannjenga.com'),
+  metadataBase: new URL('https://njengaventures.dev'),
   title: "Ian Njenga | Tinkerer & Builder",
   description: "Portfolio of side projects and prototypes spanning community platforms, ML for education, fintech and tooling for small businesses.",
   keywords: ["developer", "portfolio", "projects", "Kenya", "fintech", "ML", "community"],
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ian Njenga | Tinkerer & Builder",
     description: "Portfolio of side projects and prototypes spanning community platforms, ML for education, fintech and tooling for small businesses.",
-    url: "https://iannjenga.com",
-    siteName: "Ian Njenga",
+    url: "https://njengaventures.dev",
+    siteName: "Njenga Ventures",
     locale: "en_US",
     type: "website",
   },

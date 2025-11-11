@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   summary:
     "I build side projects and prototypes spanning community platforms, ML for education, fintech and tooling for small businesses. This site showcases selected tinkering projects.",
   avatarUrl: "https://avatars.githubusercontent.com/u/48165559?s=400&u=64eab127867a18ac16b9d8fd9df1e8caf4de1266&v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://njengaventures.dev",
   contact: {
     email: "injenga@terpmail.umd.edu",
     tel: "",
